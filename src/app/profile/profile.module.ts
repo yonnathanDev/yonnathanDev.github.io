@@ -12,6 +12,11 @@ import { ContactComponent } from './pages/contact/contact.component';
     PortafolioComponent,
     ContactComponent
   ],
+  exports: [
+    CurriculumVitaeComponent,
+    PortafolioComponent,
+    ContactComponent
+  ],
   imports: [
     CommonModule
   ]

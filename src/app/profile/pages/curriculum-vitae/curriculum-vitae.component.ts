@@ -6,11 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class CurriculumVitaeComponent implements OnInit {
+export class CurriculumVitaeComponent {
 
-  constructor() { }
+  nombres: string = 'Yonathan Nicolás';
+  apellidos: string = 'Placencia Pailapichún';
+  detalle: string = 'detalle';
 
-  ngOnInit(): void {
-  }
 
 }

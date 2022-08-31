@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 
 // Custom module
 import { SharedModule } from './shared/shared.module';
+import { ProfileModule } from './profile/profile.module';
 
 
 
@@ -16,7 +17,8 @@ import { SharedModule } from './shared/shared.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule
+    SharedModule,
+    ProfileModule
   ],
   providers: [],
   bootstrap: [AppComponent]

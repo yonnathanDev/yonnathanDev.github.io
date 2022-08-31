@@ -1,16 +1,23 @@
 import { Component, OnInit } from '@angular/core';
 
+import info from '../../../../assets/data/data.json';
+
 @Component({
   selector: 'app-curriculum-vitae',
   templateUrl: './curriculum-vitae.component.html',
   styles: [
   ]
 })
-export class CurriculumVitaeComponent {
+export class CurriculumVitaeComponent implements OnInit {
 
-  nombres: string = 'Yonathan Nicolás';
-  apellidos: string = 'Placencia Pailapichún';
-  detalle: string = 'detalle';
+  
 
+  constructor() { }
+
+  ngOnInit(): void {
+
+      console.log( info )
+
+  }
 
 }

@@ -67,10 +67,38 @@
     <div class="col-12 md:col-5 lg:col-4">
 
         <div class="col-12 ">
-            <p-card header="Contacto"
-                    subheader="Contacto">
+            <p-card header="Datos Personales">
                
-                CONTACTO
+                <!-- CONTACTO -->
+                <p>
+                    <i class="pi pi-angle-right text-justify text-color-secondary">Nombre: </i> {{ contact.nombre }}
+                </p>
+
+                <p>
+                    <i class="pi pi-angle-right text-justify text-color-secondary">Rut: </i> {{ contact.rut }}
+                </p>
+
+                <p>
+                    <i class="pi pi-angle-right text-justify text-color-secondary">Edad: </i> {{ contact.edad }}
+                </p>
+
+                <p>
+                    <i class="pi pi-angle-right text-justify text-color-secondary">Fecha de Nacimiento: </i> {{ contact.fechaNacimiento | date }}
+                </p>
+
+                <p>
+                    <i class="pi pi-angle-right text-justify text-color-secondary">Dirección: </i> {{ contact.direccion }}
+                </p>
+
+                <p>
+                    <i class="pi pi-angle-right text-justify text-color-secondary">Teléfono: </i> {{ contact.telefono }}
+                </p>
+
+                <p>
+                    <i class="pi pi-angle-right text-justify text-color-secondary">Email: </i> {{ contact.email }}
+                </p>
+                
+               
 
 
             </p-card>

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Experience } from '../../interfaces/experience';
 
-import info from '../../../../assets/data/data.json';
+import dataExp from '../../../../assets/data/experience.json';
 
 @Component({
   selector: 'app-curriculum-vitae',
@@ -10,13 +11,16 @@ import info from '../../../../assets/data/data.json';
 })
 export class CurriculumVitaeComponent implements OnInit {
 
+  experiencia: Experience[] = dataExp; 
   
+   
 
   constructor() { }
 
   ngOnInit(): void {
 
-      console.log( info )
+    console.log(this.experiencia)
+      
 
   }
 

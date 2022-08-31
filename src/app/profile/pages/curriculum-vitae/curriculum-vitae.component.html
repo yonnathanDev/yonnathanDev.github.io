@@ -19,8 +19,14 @@
             <p-card header="Acerca de mi"
                     subheader="Presentación">
 
-                    <p>
-                        Presentación
+                    <p class="text-justify">
+                            Realiza trabajos de asesoría y creación de la plataforma web “Centros Salmones Austral”, 
+                        en la cuál se realizan registros de cada uno de los centros de cultivos, donde se encuentran
+                        los módulos de cada jaula de salomes para cultivo, también se realizan registros de las 
+                        mediciones de cada sensor que se encuentran en las jaulas de salmones, midiendo así la 
+                        oxigenación, salinidad y temperatura de estas. Esta medición de sensores en tiempo real, les 
+                        permitiría comprobar la factibilidad de cada equipo, recurso y válvula de oxigención que se 
+                        utiliza en los centros de cultivo
                     </p>
                     
             </p-card>
@@ -28,11 +34,25 @@
         </div>        
 
         <div class="col-12 ">
-            <p-card header="Experiencia"
-                    subheader="Fechas">
-                    experiencia
+            <p-card [header]="item.empresa | uppercase"
+                    [subheader]="item.cargo" *ngFor="let item of experiencia; let indice = index">
+                
+                    <!-- experiencia -->
+                    <h2>Tareas Realizadas:</h2>
+                    <p *ngFor="let descripcion of item.descripcion" 
+                        class="text-justify"> 
+                            {{ descripcion.parrafo }} 
+                    </p>
+                    
+                    <h3>Tecnologías Utilizadas:</h3>
+                    <ul>
+                        <li *ngFor="let tecnologia of item.tecnologia"> {{ tecnologia.detalle }} </li>
+                    </ul>
+                    <br><br>
+                    <hr>
             </p-card>
         </div>
+
         <div class="col-12">
             <p-card header="EstudiciEstudios"
                     subheader="Fechas">

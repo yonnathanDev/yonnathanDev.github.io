@@ -8,7 +8,6 @@ import { PortafolioComponent } from './pages/portafolio/portafolio.component';
 import { ContactComponent } from './pages/contact/contact.component';
 
 
-
 @NgModule({
   declarations: [
     CurriculumVitaeComponent,

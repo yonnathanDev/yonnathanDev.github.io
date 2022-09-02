@@ -51,13 +51,6 @@
             </p-card>
         </div>
 
-        <div class="col-12">
-            <p-card header="EstudiciEstudios"
-                    subheader="Fechas">
-                    Estudios
-            </p-card>
-        </div>
-
     </div>
 
 
@@ -88,14 +81,6 @@
                 <p>
                     <i class="pi pi-angle-right text-justify text-color-secondary">Dirección: </i> {{ personalInformation.direccion }}
                 </p>
-
-                <p>
-                    <i class="pi pi-angle-right text-justify text-color-secondary">Teléfono: </i> {{ personalInformation.telefono }}
-                </p>
-
-                <p>
-                    <i class="pi pi-angle-right text-justify text-color-secondary">Email: </i> {{ personalInformation.email }}
-                </p>
                 
             </p-card>
         </div>
@@ -106,10 +91,14 @@
                 <!-- SOCIAL -->
                 
                 <p *ngFor="let contact of contacts">
-                    <img src="../../../../assets/iconDev/{{contact.icon}}.png" alt="{{ contact.icon }}" width="20"/>{{ contact.propiedad }} : {{ contact.detalle }}
+                    
+                    <img src="../../../../assets/iconDev/{{contact.icon}}.png" alt="{{ contact.icon }}" width="20"/>
+                    
+                    {{ contact.propiedad }} : {{ contact.detalle }} 
+                    <!-- <a href="{{ contact.detalle }}" target="_blank"></a>  -->
+                    
                 </p>
-            
-
+                
             </p-card>
         </div>
 
@@ -119,6 +108,24 @@
                     <ul>
                         <li *ngFor="let skill of skills">
                             <img src="../../../../assets/iconDev/{{skill.icon}}.png" alt="{{ skill.icon }}" width="20"/> {{ skill.nombre }}
+                        </li>
+                    </ul>
+
+            </p-card>
+        </div>
+
+        <div class="col-12">
+            <p-card header="Estudios">
+
+                    <ul>
+                        <li> 
+                            <h3> Universidad Santo Tomás :</h3> <h5> Ingerniero en informática </h5>
+                        </li>
+                    </ul>
+
+                    <ul>
+                        <li> 
+                            <h3> Fuerza Aérea de Chile :</h3> <h5> Soldado Conscripto de reserva. Militar. </h5>
                         </li>
                     </ul>
 

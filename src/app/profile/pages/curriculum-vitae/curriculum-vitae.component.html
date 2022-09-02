@@ -111,11 +111,13 @@
         </div>
 
         <div class="col-12 ">
-            <p-card header="Skill"
-                    subheader="Skill">
-               
-                SKILL   
-
+            <p-card header="Skill">
+                
+                    <ul>
+                        <li *ngFor="let skill of skills">
+                            {{ skill.nombre }}
+                        </li>
+                    </ul>
 
             </p-card>
         </div>

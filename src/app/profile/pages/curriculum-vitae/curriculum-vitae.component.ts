@@ -18,14 +18,14 @@ export class CurriculumVitaeComponent implements OnInit {
 
   experiencia: Experience[] = dataExp;
   contact: Contact = dataContact;
-  skill: Skill[] = dataSkill;
+  skills: Skill[] = dataSkill;
    
 
   constructor() { }
 
   ngOnInit(): void {
 
-    console.log(this.skill)
+    console.log(this.skills )
       
 
   }

@@ -70,42 +70,45 @@
                
                 <!-- CONTACTO -->
                 <p>
-                    <i class="pi pi-angle-right text-justify text-color-secondary">Nombre: </i> {{ contact.nombre }}
+                    <i class="pi pi-angle-right text-justify text-color-secondary">Nombre: </i> {{ personalInformation.nombre }}
                 </p>
 
                 <p>
-                    <i class="pi pi-angle-right text-justify text-color-secondary">Rut: </i> {{ contact.rut }}
+                    <i class="pi pi-angle-right text-justify text-color-secondary">Rut: </i> {{ personalInformation.rut }}
                 </p>
 
                 <p>
-                    <i class="pi pi-angle-right text-justify text-color-secondary">Edad: </i> {{ contact.edad }}
+                    <i class="pi pi-angle-right text-justify text-color-secondary">Edad: </i> {{ personalInformation.edad }}
                 </p>
 
                 <p>
-                    <i class="pi pi-angle-right text-justify text-color-secondary">Fecha de Nacimiento: </i> {{ contact.fechaNacimiento | date }}
+                    <i class="pi pi-angle-right text-justify text-color-secondary">Fecha de Nacimiento: </i> {{ personalInformation.fechaNacimiento | date }}
                 </p>
 
                 <p>
-                    <i class="pi pi-angle-right text-justify text-color-secondary">Dirección: </i> {{ contact.direccion }}
+                    <i class="pi pi-angle-right text-justify text-color-secondary">Dirección: </i> {{ personalInformation.direccion }}
                 </p>
 
                 <p>
-                    <i class="pi pi-angle-right text-justify text-color-secondary">Teléfono: </i> {{ contact.telefono }}
+                    <i class="pi pi-angle-right text-justify text-color-secondary">Teléfono: </i> {{ personalInformation.telefono }}
                 </p>
 
                 <p>
-                    <i class="pi pi-angle-right text-justify text-color-secondary">Email: </i> {{ contact.email }}
+                    <i class="pi pi-angle-right text-justify text-color-secondary">Email: </i> {{ personalInformation.email }}
                 </p>
                 
             </p-card>
         </div>
 
         <div class="col-12 ">
-            <p-card header="Social"
-                    subheader="Social">
+            <p-card header="Datos de Contacto">
                
                 <!-- SOCIAL -->
-
+                
+                <p *ngFor="let contact of contacts">
+                    <img src="../../../../assets/iconDev/{{contact.icon}}.png" alt="{{ contact.icon }}" width="20"/>{{ contact.propiedad }} : {{ contact.detalle }}
+                </p>
+            
 
             </p-card>
         </div>

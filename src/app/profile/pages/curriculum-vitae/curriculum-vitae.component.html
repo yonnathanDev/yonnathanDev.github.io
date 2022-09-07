@@ -106,11 +106,12 @@
                
                 <!-- SOCIAL -->
                 
-                <p *ngFor="let contact of contacts">
+                <p *ngFor="let contact of contacts" class="text-green-400">
                     
                     <img src="../../../../assets/iconDev/{{contact.icon}}.png" alt="{{ contact.icon }}" width="20"/>
                     
-                    {{ contact.propiedad }} : {{ contact.detalle }} 
+                    {{ contact.propiedad }} : {{ contact.detalle }}
+                    <a href="{{ contact.url }}" target="_blank" *ngIf="contact.target">Ver</a>
                     
                 </p>
                 

@@ -1,6 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import {MenuItem} from 'primeng/api';
 
+import { Contact } from 'src/app/profile/interfaces/contact';
+
+import dataContact from '../../../assets/data/contact.json';
+
+
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
@@ -10,6 +15,7 @@ import {MenuItem} from 'primeng/api';
 export class MenuComponent implements OnInit {
 
   items!: MenuItem[];
+  contacts: Contact[] = dataContact;
 
   constructor() { }
 
@@ -29,12 +35,14 @@ export class MenuComponent implements OnInit {
                         routerLink: '/'
                       },
                       {
-                        label: 'linkedin',
-                        icon: 'pi pi-fw pi-github'
+                        label: 'Github',
+                        icon: 'pi pi-fw pi-github',
+                        url: this.contacts.find( github => Object.is(github.propiedad, 'Github') )?.url
                       },
                       {
-                        label: 'linkedin',
+                        label: 'Linkedin',
                         icon: 'pi pi-fw pi-linkedin',
+                        url: this.contacts.find( linkedin => Object.is(linkedin.propiedad, 'Linkedin') )?.url
                       },
                   ]
               }

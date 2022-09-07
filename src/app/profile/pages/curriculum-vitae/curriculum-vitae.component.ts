@@ -28,7 +28,7 @@ export class CurriculumVitaeComponent implements OnInit {
 
   ngOnInit(): void {
 
-    console.log(this.contacts );
+    // console.log(this.contacts );
       
 
   }

@@ -23,13 +23,12 @@ export class CurriculumVitaeComponent implements OnInit {
   personalInformation: PersonalInformation = dataPersonalInformation;
   contacts: Contact[] = dataContact;
   skills: Skill[] = dataSkill;
-   
 
   constructor() { }
 
   ngOnInit(): void {
 
-    console.log(this.contacts )
+    console.log(this.contacts );
       
 
   }

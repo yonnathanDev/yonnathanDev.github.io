@@ -1,0 +1,45 @@
+
+[
+    {
+        "propiedad": "Teléfono",
+        "detalle": "+56 922104374",
+        "icon": "phone",
+        "url": "",
+        "target": false
+    },
+    {
+        "propiedad": "WhatsApp",
+        "detalle": "+56 969025979",
+        "icon":"whatsapp",
+        "url": "",
+        "target": false
+    },    
+    {
+        "propiedad": "Email",
+        "detalle": "yonathan.placencia@gmail.com",
+        "url": "",
+        "icon": "gmail",
+        "target": false
+    },
+    {
+        "propiedad": "Github",
+        "detalle": "Github/YonnathanPlacencia",
+        "icon": "github",
+        "url": "https://github.com/yonnathanDev?tab=overview&from=2022-07-01&to=2022-07-31",
+        "target": true
+    },
+    {
+        "propiedad": "Linkedin",
+        "detalle":"Linkedin/yonathan",
+        "icon": "linkedin",
+        "url": "https://www.linkedin.com/in/yonathan-placencia-3b861bb6/",
+        "target": true
+    },
+    {
+        "propiedad": "Sitio Web",
+        "detalle": "Linkedin/page/yonathanPlacencia",
+        "icon": "webv2",
+        "url": "https://www.linkedin.com/in/yonathan-placencia-3b861bb6/",
+        "target": true
+    }
+]

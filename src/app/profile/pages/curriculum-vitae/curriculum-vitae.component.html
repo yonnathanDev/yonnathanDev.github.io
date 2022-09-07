@@ -2,7 +2,7 @@
 
 <div class="text-layout">
 
-    <h1 class="text-blue-600 text-center">Yonathan Placencia - Curriculum Vitae</h1>
+    <h1 class="text-800 text-center">Yonathan Placencia - Curriculum Vitae</h1>
 
 </div>
 
@@ -16,7 +16,9 @@
 
                     <p class="text-justify">
                             Me presento, mi nombre es Yonathan Placencia, soy ingeniero en informática, oriundo de 
-                        la ciudad de Puerto Montt. 
+                        la ciudad de Puerto Montt.
+                    </p>
+                    <p class="text-justify"> 
                          Mi área de especialidad es el desarrollo web, con conocimientos en desarrollo mobile. 
                         Actualmente me encuentro con disponibilidad inmediata para trabajar en una empresa, y no 
                         tengo problema alguno en cambiarme de ciudad para cumplir mis labores o trabajar vía 
@@ -36,7 +38,7 @@
 
 
                     <div class="flex border-top-1 surface-border w-full">
-                        <p class="font-bold mr-3 text-blue-500 w-3 text-right">  {{ item.fechaInicio }} - {{ item.fechaTermino }} </p>
+                        <p class="font-bold mr-3 text-blue-500 w-3 text-right">  {{ item.fechaInicio }} - {{ item.fechaTermino  }} </p>
                         <p class="font-bold text-lg w-9"> {{ item.empresa | uppercase }} </p>
                     </div>
 
@@ -46,7 +48,7 @@
                     </div>
              
 
-                    <h4>Tareas Realizadas:</h4>
+                    <h3>Tareas Realizadas:</h3>
                     <p *ngFor="let descripcion of item.descripcion" 
                         class="text-justify"> 
                         {{ descripcion.parrafo }} 
@@ -135,6 +137,10 @@
 
                 <p>
                     <i class="pi pi-angle-right text-justify text-color-secondary text-lg"> Fuerza Aérea de Chile: </i>  <b class="text-justify text-xl"> Soldado Conscripto de reserva.</b>
+                </p>
+
+                <p>
+                    <i class="pi pi-angle-right text-justify text-color-secondary text-lg"> Licencia de conducir: </i>  <b class="text-justify text-xl"> B - C</b>
                 </p>
 
             </p-card>

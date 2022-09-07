@@ -1,0 +1,204 @@
+ [
+    {
+        "empresa": "Desarrollo Independiente",
+        "fechaInicio": "01/01/2021",
+        "fechaTermino": "01/08/2022",
+        "ubicacion": "Puerto Montt, Chile",
+        "cargo": "Desarrollador de aplicaciones web.",
+        "descripcion": [
+            {
+                "parrafo": "Realiza trabajos de desarrollo web tanto en el área pública como también privada, mejorando los procesos y automatización de éstas."
+            },
+            {
+                "parrafo": "Se desempeña en trabajos de consultoría en distintas empresas del área tecnológica y así mismo en diferentes proyectos de emprendedores."
+            }                                              
+        ],
+        "tecnologia": [
+            {
+                "detalle": "Metodología de desarrollo « Ágil XP »"
+            },
+            {
+                "detalle": "Lenguajes utilizados : PHP, Laravel, Angular, Typescript,Javascript, Jquery, Json, Ajax, Html, Css, Bootstrap, NgPrime, Blade, Laravel, Mysql, Git."
+            },
+            {
+                "detalle": "S.O. / herramientas : Mac OS, Trello, Slack, Postman"
+            }          
+        ]        
+    },    
+    {
+        "empresa": "Scharfsteinlabs",
+        "fechaInicio": "01/02/2020",
+        "fechaTermino": "01/11/2020",
+        "ubicacion": "Santiago, Chile",
+        "cargo": " Desarrollador de aplicaciones web y moviles.",
+        "descripcion": [
+            {
+                "parrafo": "Encargado de desarrollar y mantener el sistema de control de accesos y automatización de comunidades, « Smartki », en la ciudad de Santiago. Este proyecto contaba de ambiente web y móvil."
+            },
+            {
+                "parrafo": "Desarrollador en el proyecto de acceso a estacionamientos, « Appark », de la ciudad de Santiago. El proyecto contaba de ambiente web y móvil."
+            },
+            {
+                "parrafo": "Encargado de testear y realizar pruebas de rendimiento a las distintas aplicaciones que se encontraban en producción y desarrollo, corrigiendo los bugs y mejorando el rendimiento de estas."
+            },
+            {
+                "parrafo": "Realiza mejoras en la ux (experiencia de usuario), de los distintos sistemas desarrollados por SchafsteinLabs."
+            },
+            {
+                "parrafo": "Imparte capacitaciones a los usuarios que darán uso a los distintos sistemas generados por SchafsteinLabs."
+            }                                               
+        ],
+        "tecnologia": [
+            {
+                "detalle": " Metodología de desarrollo « Scrum »."
+            },
+            {
+                "detalle": " Lenguajes utilizados : PHP, Javascript, Jquery, Json, Ajax, Html, Css, Bootstrap, Blade, Framework laravel, Framework Ionic, Android studio, Mysql, Git."
+            },
+            {
+                "detalle": "S.O. / herramientas : Mac OS, Trello, Slack, Postman"
+            }          
+        ]        
+    },
+    {
+        "empresa": "Municipalidad de Puerto Varas",
+        "fechaInicio": "01/08/2018",
+        "fechaTermino": "31/12/2020",
+        "ubicacion": "Puerto Varas, Chile",
+        "cargo": "Desarrollador de aplicaciones web.",
+        "descripcion": [
+            {
+                "parrafo": "Encargado de desarrollar y mantener los sistemas internos de la municipalidad de Puerto Varas. Creando módulos de automatización de procesos en cada departamento de la municipalidad."
+            },
+            {
+                "parrafo": "Encargado de analizar, diseñar y codificar los sistemas internos dentro de la plataforma web de la municipalidad. Automatizando procesos y trazabilidad de la información."
+            },
+            {
+                "parrafo": "Se realizan trabajos de ingeniería inversa en los sistemas externos usados por la municipalidad para así mejorar, recrear y migrar aquella tecnología a su plataforma interna."
+            },
+            {
+                "parrafo": "Encargado de gestionar las tareas del equipo de desarrollo a cargo, utilizando metodologías agiles de desarrollo."
+            },
+            {
+                "parrafo": "Imparte las capacitaciones necesarias a los usuarios que utilizan los sistemas de gestión interna de la municipalidad."
+            }                                               
+        ],
+        "tecnologia": [
+            {
+                "detalle": "Metodología de desarrollo « Ágil XP »."
+            },
+            {
+                "detalle": "Lenguajes utilizados : PHP, Javascript, jquery, json, Ajax, Typescript(básico),html, css, Vue(básico), Angular v.9(Básico), bootstrap, Blade, laravel."
+            },
+            {
+                "detalle": "S.O. / herramientas : Mac OS, Linux, Trello, Slack, evernote."
+            }          
+        ]        
+    },     
+    {
+        "empresa": "Wdesign",
+        "fechaInicio": "01/08/2017",
+        "fechaTermino": "01/08/2018",
+        "ubicacion": "Puerto Montt, Chile",
+        "cargo": " Desarrollador de aplicaciones web.",
+        "descripcion": [
+            {
+                "parrafo": "Encargado de analizar, diseñar y planificar el desarrollo de sistemas de información en ambiente web, con las tecnologías necesarias para su realización."
+            },
+            {
+                "parrafo": "Encargado de codificar el desarrollo de los sistemas en ambiente web y las puestas en marchas de los mismos."
+            },
+            {
+                "parrafo": "Encargado de automatizar procesos de desarrollo dentro de la empresa y reducir tiempos de producción."
+            },
+            {
+                "parrafo": "Se realizan tareas de estandarización de código para facilitar la producción de proyectos y desempeño del equipo de trabajo."
+            }                                   
+        ],
+        "tecnologia": [
+            {
+                "detalle": "Metodología de desarrollo « Ágil XP »."
+            },
+            {
+                "detalle": " Lenguajes utilizados : PHP, Javascript, Jquery, Json, Ajax, Html, Css, Bootstrap, Blade, Laravel."
+            },
+            {
+                "detalle": " S.O. / herramientas : Mac OS, Window, trello, Slack."
+            }          
+        ]        
+    },     
+    {
+        "empresa": "Patagonia Media",
+        "fechaInicio": "01/02/2017",
+        "fechaTermino": "01/07/2017",
+        "ubicacion": "Frutillar, Chile",
+        "cargo": "Desarrollador de aplicaciones web",
+        "descripcion": [
+            {
+                "parrafo": "Encargado de codificar y desarrollar los sistemas en ambiente web, con las tecnologías de desarrollos necesarias para su culminación y puesta en marcha. A demás se realizaban tareas de gestión de proyectos y equipos de trabajo."
+            }
+        ],
+        "tecnologia": [
+            {
+                "detalle": "Metodología de desarrollo « Ágil XP »."
+            },
+            {
+                "detalle": "Lenguajes utilizados : PHP, Javascript, Jquery, Json, Ajax, Html, Css, Bootstrap, Blade, Laravel."
+            },
+            {
+                "detalle": "S.O. / herramientas : Window, trello, Slack."
+            }          
+        ]        
+    }, 
+    {
+        "empresa": "Wdesign",
+        "fechaInicio": "01/09/2016",
+        "fechaTermino": "01/01/2017",
+        "ubicacion": "Puerto Montt, Chile",
+        "cargo": "Desarrollador de aplicaciones web",
+        "descripcion": [
+            {
+                "parrafo": "Encargado de analizar, diseñar y planificar el desarrollar las aplicaciones en ambiente web, tanto en back-end como en front-end, utilizando las tecnologías necesarias para su realización"
+            },
+            {
+                "parrafo": "Se encarga de la codificación de los sistemas requeridos por los usuarios del sistema."
+            }   
+        ],
+        "tecnologia": [
+            {
+                "detalle": "Metodología de desarrollo « Ágil XP »."
+            },
+            {
+                "detalle": "Lenguajes utilizados : PHP, Javascript, Jquery, Json, Ajax, Html, Css, Bootstrap, Blade, Laravel."
+            },
+            {
+                "detalle": "S.O. / herramientas : Window, trello, Slack."
+            }          
+        ]        
+    },  
+    {
+        "empresa": "softpowering",
+        "fechaInicio": "01/07/2015",
+        "fechaTermino": "01/03/2016",
+        "ubicacion": "Puerto Montt, Chile",
+        "cargo": "Desarrollador de aplicaciones web",
+        "descripcion": [
+            {
+                "parrafo": "Encargado de codificar el desarrollo de los sistemas web, tanto en back-end como en front-end, utilizando el framework de desarrollo web php Laravel"
+            },
+            {
+                "parrafo": "Se encarga de la elaboración de la aplicación móvil en el proyecto SmartInia con las herramientas de desarrollo de android studio."
+            }   
+        ],
+        "tecnologia": [
+            {
+                "detalle": " Metodología de desarrollo « Ágil XP »."
+            },
+            {
+                "detalle": "Lenguajes utilizados : PHP, Javascript, Jquery, Json, Ajax, Html, Css, Bootstrap, Blade, Laravel, android studio."
+            }          
+        ]
+    }  
+]    
+
+

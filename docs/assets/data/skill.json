@@ -1,0 +1,115 @@
+[
+
+    {
+
+        "nombre": "Javascript",
+        "icon": "javascript"
+    },
+    {
+
+        "nombre": "PHP",
+        "icon": "php"
+    },
+    {
+
+        "nombre": "Typescript",
+        "icon": "typescriptv2"
+    },
+    {
+
+        "nombre": "Python",
+        "icon": "python"
+    },
+    {
+
+        "nombre": "java",
+        "icon": "java"
+    },
+    {
+
+        "nombre": "C++",
+        "icon": "c++"
+    },
+    {
+
+        "nombre": "C#",
+        "icon": "ciisharpv2"
+    },
+    {
+
+        "nombre": "Angular",
+        "icon": "angular"
+    },
+    {
+
+        "nombre": "Laravel",
+        "icon": "laravel"
+    },
+    {
+
+        "nombre": "Ionic",
+        "icon": "ionic"
+    },
+    {
+
+        "nombre": "VueJs",
+        "icon": "vuejs"
+    },
+    {
+
+        "nombre": "Express",
+        "icon": "express"
+    },    
+    {
+
+        "nombre": "Jquery",
+        "icon": "jquery"
+    },
+    {
+
+        "nombre": "NodeJs",
+        "icon": "nodejsv3"
+    },
+    {
+
+        "nombre": "Android Studio",
+        "icon": "androidstudiov2"
+    },
+    {
+
+        "nombre": "MongoDB",
+        "icon": "mongodbv2"
+    },
+    {
+
+        "nombre": "Mysql",
+        "icon": "mysqlv2"
+    },
+    {
+
+        "nombre": "SqLite",
+        "icon": "sqlitev2"
+    },
+    {
+
+        "nombre": "SqlServer",
+        "icon": "sqlserverv2"
+    },
+    {
+
+        "nombre": "Git",
+        "icon": "git"
+    },
+    {
+
+        "nombre": "Github",
+        "icon": "github"
+    }
+
+
+]
+   
+
+
+   
+

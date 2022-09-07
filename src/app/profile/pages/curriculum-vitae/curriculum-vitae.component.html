@@ -35,7 +35,7 @@
             <p-card header="Experiencia Laboral - Área Informática"
                     subheader="Desarrollador Fullstack">
 
-                <div *ngFor="let item of experiencia; let indice = index">
+                <div *ngFor="let item of experiencia; let indice = index" class="mb-6">
                     <!-- experiencia -->
 
 
@@ -60,8 +60,6 @@
                     <ul>
                         <li *ngFor="let tecnologia of item.tecnologia"> {{ tecnologia.detalle }} </li>
                     </ul>
-                
-                    <br>
 
                 </div>
                     

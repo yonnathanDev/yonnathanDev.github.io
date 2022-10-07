@@ -45,12 +45,12 @@
 
 Portafolio web, aquí se ecnuentra mi Curriculum Vitae, con información detallada de mi experiencia. Esta web está enfocada, en mostrar de forma rápida mi Curriculum Vitae.
 En la web, encontraremos lo siguiente:
-    - Una breve descripción de mi perfil.
-    - Estudios.
-    - Experiencia Laboral.
-    - Datos personales.
-    - Información de contacto.
-    - Mis skill, lenguajes y framework, en los que tengo conocimiento.
+* Una breve descripción de mi perfil.
+* Estudios.
+* Experiencia Laboral.
+* Datos personales.
+* Información de contacto.
+* Mis skill, lenguajes y framework, en los que tengo conocimiento.
 
 ## Configuración
 

@@ -26,7 +26,7 @@ export class MenuComponent implements OnInit {
           label: 'Perfil',
           icon: 'pi pi-fw pi-user',
           items: [{
-                  label: 'Perfiles', 
+                  label: 'Pages', 
                   icon: 'pi pi-fw pi-home',
                   items: [
                       {
@@ -35,29 +35,29 @@ export class MenuComponent implements OnInit {
                         routerLink: '/'
                       },
                       {
-                        label: 'Github',
-                        icon: 'pi pi-fw pi-github',
-                        url: this.contacts.find( github => Object.is(github.propiedad, 'Github') )?.url
+                        label: 'Contacto',
+                        icon: 'pi pi-fw pi-send',
+                        routerLink: 'contact'
                       },
                       {
-                        label: 'Linkedin',
-                        icon: 'pi pi-fw pi-linkedin',
-                        url: this.contacts.find( linkedin => Object.is(linkedin.propiedad, 'Linkedin') )?.url
-                      },
+                        label: 'Portafolio',
+                        icon: 'pi pi-fw pi-book',
+                        routerLink: 'portafolio'
+                      }
                   ]
               }
           ]
       },
       {
-          label: 'Contacto',
-          icon: 'pi pi-fw pi-send',
-          routerLink: 'contact'
+        label: 'Linkedin',
+        icon: 'pi pi-fw pi-linkedin',
+        url: this.contacts.find( linkedin => Object.is(linkedin.propiedad, 'Linkedin') )?.url
       },
       {
-        label: 'Portafolio',
-        icon: 'pi pi-fw pi-book',
-        routerLink: 'portafolio'
-      }
+        label: 'Github',
+        icon: 'pi pi-fw pi-github',
+        url: this.contacts.find( github => Object.is(github.propiedad, 'Github') )?.url
+      }     
   ];
 
 

@@ -1,10 +1,33 @@
  [
     {
+        "empresa": "Tisal",
+        "fechaInicio": "01/11/2022",
+        "fechaTermino": "Actual",
+        "ubicacion": "Santiago, Chile",
+        "cargo": "Desarrollador Front-End",
+        "descripcion": [
+            {
+                "parrafo": "Encargado de desarrollar y mantener aplicativos dentro del proyecto OneMedisyn, dicho proyecto tiene por objetivo, gestionar y controlar todas las áreas que componen las distintas clínicas que se encuentran en su cartera de clientes, tales como: Clínica Santa María, Clínica Dávila, Clínica Viña del Mar, etc."
+            }                                             
+        ],
+        "tecnologia": [
+            {
+                "detalle": "Metodología de desarrollo « Scrum »"
+            },
+            {
+                "detalle": "Lenguajes utilizados : Angular, Javascript, Typescript, Jquery, Json, Ajax, Html, Css, Bootstrap, Sass, Angular Material, PrimeNG, ApiRest, Express, Mongodb, Git, Github, Azure DevOps."
+            },
+            {
+                "detalle": "S.O. / herramientas : Mac OS, Window, Jira, Trello, Slack, Evernote."
+            }          
+        ]        
+    },    
+    {
         "empresa": "Desarrollo Independiente",
         "fechaInicio": "01/01/2021",
-        "fechaTermino": "01/08/2022",
+        "fechaTermino": "01/10/2022",
         "ubicacion": "Puerto Montt, Chile",
-        "cargo": "Desarrollador de aplicaciones web.",
+        "cargo": "Desarrollador de aplicaciones web",
         "descripcion": [
             {
                 "parrafo": "Realiza trabajos de desarrollo web tanto en el área pública como también privada, mejorando los procesos y automatización de éstas."
@@ -30,7 +53,7 @@
         "fechaInicio": "01/02/2020",
         "fechaTermino": "01/11/2020",
         "ubicacion": "Santiago, Chile",
-        "cargo": " Desarrollador de aplicaciones web y moviles.",
+        "cargo": " Desarrollador de aplicaciones web y moviles",
         "descripcion": [
             {
                 "parrafo": "Encargado de desarrollar y mantener el sistema de control de accesos y automatización de comunidades, « Smartki », en la ciudad de Santiago. Este proyecto contaba de ambiente web y móvil."
@@ -65,7 +88,7 @@
         "fechaInicio": "01/08/2018",
         "fechaTermino": "31/12/2020",
         "ubicacion": "Puerto Varas, Chile",
-        "cargo": "Desarrollador de aplicaciones web.",
+        "cargo": "Desarrollador de aplicaciones web",
         "descripcion": [
             {
                 "parrafo": "Encargado de desarrollar y mantener los sistemas internos de la municipalidad de Puerto Varas. Creando módulos de automatización de procesos en cada departamento de la municipalidad."
@@ -100,7 +123,7 @@
         "fechaInicio": "01/08/2017",
         "fechaTermino": "01/08/2018",
         "ubicacion": "Puerto Montt, Chile",
-        "cargo": " Desarrollador de aplicaciones web.",
+        "cargo": " Desarrollador de aplicaciones web",
         "descripcion": [
             {
                 "parrafo": "Encargado de analizar, diseñar y planificar el desarrollo de sistemas de información en ambiente web, con las tecnologías necesarias para su realización."

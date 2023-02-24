@@ -104,8 +104,31 @@
 
         "nombre": "Github",
         "icon": "github"
-    }
+    },
+    {
 
+        "nombre": "Azure DevOps",
+        "icon": "azureDevops"
+
+    }, 
+    {
+
+        "nombre": "Html5",
+        "icon": "html"
+
+    },
+    {
+
+        "nombre": "Css3",
+        "icon": "css"
+
+    },
+    {
+
+        "nombre": "Sass",
+        "icon": "sass"
+        
+    }    
 
 ]
    
